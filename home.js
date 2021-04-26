@@ -22,25 +22,22 @@ heightSlider.addEventListener("input", changeSquareHeight)
 
 function selectDirt() {
   costPerSquare = 1
-  selectedLandscape = "dirt"
   square.style.backgroundImage = `url(${"dirt.jpeg"})`
-  selectedLandscapeParagraph.innerHTML = "Selected landscape: dirt"
+  selectedLandscapeParagraph.innerHTML = "Selected landscape: Dirt"
   updateParagraphs()
 }
 
 function selectGrass() {
   costPerSquare = 2
-  selectedLandscape = "grass"
   square.style.backgroundImage = `url(${"grass.jpeg"})` 
-  selectedLandscapeParagraph.innerHTML = "Selected landscape: grass"
+  selectedLandscapeParagraph.innerHTML = "Selected landscape: Grass"
   updateParagraphs()
 }
 
 function selectPavers() {
   costPerSquare = 3
-  selectedLandscape = "pavers"
   square.style.backgroundImage = `url(${"pavers.jpeg"})` 
-  selectedLandscapeParagraph.innerHTML = "Selected landscape: pavers"
+  selectedLandscapeParagraph.innerHTML = "Selected landscape: Pavers"
   updateParagraphs()
 }
 

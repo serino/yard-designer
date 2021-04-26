@@ -1,1 +1,1 @@
-This program allows the user to select the size of their yard and then select which material they would like to landscape it with. Based on the size of their yard and the material selected, they will receive a custom quote.
+This program allows the user to select the size of their yard and then select which material they would like to landscape with. Based on the size of their yard and the material selected, they will receive a custom quote.
