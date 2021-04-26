@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Yard Designer</title>
+</head>
+<body>
+
+  <h1>Yard Designer</h1>
+
+  <div id="square"></div>
+
+  <bold>Width</bold>
+  <div>
+  <input id="widthSlider" type="range" min="200" max="400" value="200">
+  </div>
+
+  <bold>Height</bold>
+  <div>
+  <input id="heightSlider" type="range" min="200" max="400" value="200">
+  </div>
+  <p id="squareSizeParagraph">20 feet × 20 feet</p>
+
+  <bold>Landscape Type</bold>
+  <div>
+    <button id="dirtButton" onclick="selectDirt()">Dirt $1 sqft</button>
+    <button id="grassButton" onclick="selectGrass()">Grass $2 sqft</button>
+    <button id="paversButton" onclick="selectPavers()">Pavers $3 sqft</button>
+  </div>
+  <p id="selectedLandscapeParagraph">Selected landscape: none</p>
+
+  
+  <p id="totalAreaParagraph">Area: 400 square feet</p>
+  <p id="costPerSquareParagraph">Cost per square foot: $0</p>
+  <p id="totalCostParagraph">Total cost: $0</p>  
+
+</body>
+</html>
